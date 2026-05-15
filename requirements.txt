@@ -1,0 +1,10 @@
+# fund_analyzer.py — Streamlit Cloud requirements
+# Pin minimum versions; Streamlit Cloud will resolve compatible latest patches.
+
+streamlit>=1.45.1
+pandas>=2.2.3
+numpy>=1.26.4
+plotly>=5.24.1
+openpyxl>=3.1.5      # reads real .xlsx / .xlsm files
+xlrd>=2.0.1          # reads legacy binary .xls files
+yfinance>=0.2.54     # live ACWV + VOO daily prices for benchmark overlay
